@@ -1,5 +1,8 @@
 {
-  "routes": [
-    { "src": "/(.*)", "dest": "/api/proxy" }
+  "redirects": [
+    { "source": "/", "destination": "/index.html", "permanent": false }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/proxy" }
   ]
 }
