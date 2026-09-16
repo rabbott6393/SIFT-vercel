@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/:path*", "destination": "https://sift-ai.co.uk/:path*" }
+    { "source": "/(.*)", "destination": "/api/proxy" }
   ]
 }
